@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="script.jsP">
+     <script src="script.js"></script>
+    <title>Tracker</title>
+</head>
+<body>
+    <div>
+    <h1>WELCOME TO YOUR <span>BUDGET TRACKER</span></h1> <br><br>
+    <p class="dings">Budget tracker</p>
+    </div><br><br>
+    <div class="disp">
+        <div class="inputs1">
+        <label for="category" class="headings">Category</label><br>
+        <select name="category" id="category">
+            <option value="select">Select</option>
+            <option value="food">Food</option>
+            <option value="electricity">Electricity</option>
+            <option value="rent">Rent</option>
+            <option value="water">Water</option>
+            <option value="transport">Transport</option>
+            <option value="fees">Fees</option>
+        </select>
+        </div>
+        <div class="inputs2">
+       <label for="amount" class="headings">Amount</label><br>
+       <input type="text" id="amount">
+       </div>
+       <div class="inputs3">
+       <label for="date" class="headings">Date</label><br>
+       <input type="date" id="date" name="date">
+       </div>
+       <div class="inputs4">
+       <label for="description" class="headings" >Description</label><br>
+       <input type="text" id="description" name="descriptionName">
+       </div>
+       <div class="inputs5" class="headings">
+       <button class="bg-sky-500 hover:bg-sky-800 hover:text-white" id="button">Add</button>
+       </div>
+    </div> <br>
+    <div class="tables">
+    <table>
+        <thead>
+            <tr>
+                <th class="hd1">Category</th><br>
+                <th class="hd2">Amount</th>
+                <th class="hd3">Date</th>
+                <th class="hd4">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
